@@ -24,7 +24,7 @@ export default class Main extends Component {
   };
 
   prevPage = () => {
-    const { page, productInfo } = this.state;
+    const { page } = this.state;
     console.log(`Apertou o botão Próximo: page: ${page}`);
 
     if (page === 1) return;
